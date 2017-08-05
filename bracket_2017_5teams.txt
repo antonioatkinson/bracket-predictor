@@ -1,0 +1,10 @@
+8
+Name Seed Region RPI RPIRank BPI BPIRank Kenpom KenpomRank Sagarin SagarinRank InitialOpponent MatchupNumber
+Gonzaga 1 West .6440 8 20.4	1 32.05 1 94.63 1 SouthDakotaSt. 8
+UNC 1 South .6470 5 19.4 3 28.22 3 93.72 2 TexasSouthern 24
+Kansas 1 Midwest .6530 3 18.4 4 27.45 6 92.88 5 UCDavis 16
+Villinova 1 East .6650 1 20.3 2 29.88 2 93.46 3 Mt.St.Mary's 0
+SouthDakotaSt. 16 West .5063 155 -1.0 188 -1.19 185 70.46 180 Gonzaga 8
+TexasSouthern 16 South .5310 103 -0.9 185 -4.04 212 68.15 210 UNC 24
+UCDavis 16 Midwest .5008 171 -2.9 221 -4.41 218 68.85 201 Kansas 16
+Mt.St.Mary's 16 East .5090 149 -1.9 205 -3.85 209 67.84 215 Villinova 0
