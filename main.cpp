@@ -99,6 +99,11 @@ void calcInitialData(vector<TeamInfo> &vec,unordered_map<string, int> &teamIndex
 void runProgram(vector<TeamInfo> &vec,unordered_map<string, int> &teamIndex){
     Bracket bracket(vec,teamIndex);
     bracket.RunFirstRound();
+    bracket.RunSecondRound();
+    bracket.RunSweetSixteen();
+    bracket.RunEliteEight();
+    bracket.RunFinalFour();
+    bracket.RunNationalChampionship();
 }
 void determineRegion(vector<TeamInfo> &vec,char region,int i){
     switch (region) {
