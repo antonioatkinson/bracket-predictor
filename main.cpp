@@ -82,6 +82,7 @@ void readData(vector<TeamInfo> &vec,unordered_map<string, int> &teamIndex){
     for(int i=0;i<(int)vec.size();++i){
         cin>>vec[i].name>>vec[i].seed>>region;//Could make more efficient or remove completly 
         vec[i].regionName=region;
+        
         determineRegion(vec, region[0],i);
         
         cin>>vec[i].RPI>>vec[i].RPIRank>>vec[i].BPI>>vec[i].BPIRank>>vec[i].kenpom>>vec[i].kenpomRank>>vec[i].sagarin>>vec[i].sagarinRank>>vec[i].initialOpponent>>vec[i].matchupNumber;

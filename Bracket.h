@@ -57,7 +57,7 @@ public:
         vecNationalChampionship.resize(2);
     }
     void RunFirstRound(){
-        for(int i=0;i<(int)vecRoundof64.size();++i){
+        for(int i=0;i<(int)vecRoundof64.size()*2;++i){
             vecRoundof64[vec[i].matchupNumber].push_back(&vec[i]);
         }
         printRound(vecRoundof64);
